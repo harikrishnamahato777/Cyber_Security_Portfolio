@@ -16,22 +16,41 @@ export default function About() {
         <div className="glass rounded-2xl p-8 md:p-12 reveal">
           <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
             <p>
-              I am a <span className="text-cyber-green font-semibold">Cyber Security student</span> with a strong 
-              foundation in computer networks, system configuration, and problem-solving. My approach to learning 
-              centers on practical application—understanding not just what security measures exist, but why they work 
-              and how they can be bypassed.
+              I am a{" "}
+              <span className="text-cyber-green font-semibold">
+                Cyber Security student
+              </span>{" "}
+              with a strong foundation in computer networks, system
+              configuration, and problem-solving. My approach to learning
+              centers on practical application—understanding not just what
+              security measures exist, but why they work and how they can be
+              bypassed.
             </p>
+
             <p>
-              I actively practice hands-on learning through platforms like{' '}
-              <span className="text-cyber-cyan font-semibold">TryHackMe</span> and work on projects that strengthen 
-              my understanding of real-world security concepts. From network packet analysis to understanding system 
-              vulnerabilities, I'm building the technical foundation needed for defensive security operations.
+              I actively practice hands-on learning through platforms like{" "}
+              <span className="text-cyber-cyan font-semibold">
+                TryHackMe
+              </span>{" "}
+              and work on projects that strengthen my understanding of
+              real-world security concepts. From network packet analysis to
+              understanding system vulnerabilities, I&apos;m building the
+              technical foundation needed for defensive security operations.
             </p>
+
             <p>
-              My goal is to start my career as a <span className="text-cyber-green font-semibold">SOC Analyst</span> or{' '}
-              <span className="text-cyber-green font-semibold">Ethical Hacker</span> and grow through continuous 
-              learning and real incident exposure. I believe that effective security comes from understanding both 
-              the attacker's methodology and the defender's toolkit—and I'm committed to mastering both perspectives.
+              My goal is to start my career as a{" "}
+              <span className="text-cyber-green font-semibold">
+                SOC Analyst
+              </span>{" "}
+              or{" "}
+              <span className="text-cyber-green font-semibold">
+                Ethical Hacker
+              </span>{" "}
+              and grow through continuous learning and real incident exposure.
+              I believe that effective security comes from understanding both
+              the attacker&apos;s methodology and the defender&apos;s
+              toolkit—and I&apos;m committed to mastering both perspectives.
             </p>
           </div>
         </div>
