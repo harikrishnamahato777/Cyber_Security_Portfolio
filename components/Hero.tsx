@@ -21,7 +21,7 @@ export default function Hero() {
             >
               <div className="glass px-4 py-2 rounded-full mb-6">
                 <span className="text-cyber-green text-sm font-medium">
-                 /* 🛡️ Available for Opportunities
+                  🛡️ Available for Opportunities
                 </span>
               </div>
             </motion.div>
