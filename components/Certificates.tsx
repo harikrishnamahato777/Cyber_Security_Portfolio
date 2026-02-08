@@ -115,11 +115,9 @@ export default function Certificates() {
             Certificates
           </span>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-white mb-4">
-            Certifications & Achievements
+            Certifications & Certificates
           </h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Public certificates hosted on Google Drive (open in a new tab).
-          </p>
+        
         </div>
 
         {/* Certificates Grid */}
@@ -190,11 +188,6 @@ export default function Certificates() {
             );
           })}
         </div>
-
-        <p className="text-center text-gray-500 text-sm mt-10">
-          If any certificate shows “Access denied”, set Google Drive sharing to{" "}
-          <span className="text-gray-300">Anyone with the link → Viewer</span>.
-        </p>
       </div>
     </section>
   );

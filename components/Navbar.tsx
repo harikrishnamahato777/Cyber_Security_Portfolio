@@ -42,7 +42,7 @@ export default function Navbar() {
             href="#"
             className="font-display text-2xl font-bold text-cyber-cyan hover:text-cyber-green transition-colors"
           >
-            &lt;HKM /&gt;
+            &lt;HKM Portfolio/&gt;
           </a>
 
           <div className="hidden lg:flex items-center gap-8">

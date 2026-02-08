@@ -27,9 +27,7 @@ export default function Projects() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16 reveal">
-          <span className="inline-block px-4 py-2 glass rounded-full text-cyber-purple text-sm font-semibold uppercase tracking-wider mb-4">
-            Portfolio
-          </span>
+          
           <h2 className="font-display text-4xl md:text-5xl font-bold text-white mb-4">
             Featured Projects
           </h2>
@@ -106,9 +104,7 @@ export default function Projects() {
 
         {/* Note about demo links */}
         <div className="mt-8 text-center reveal">
-          <p className="text-sm text-gray-500 italic">
-            Note: Replace demo URLs with your actual deployed project links
-          </p>
+          
         </div>
       </div>
     </section>
