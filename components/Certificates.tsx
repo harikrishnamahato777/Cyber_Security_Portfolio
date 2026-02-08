@@ -21,7 +21,7 @@ const certificates: Certificate[] = [
   {
     title: "Network and System Configuration Fundamentals",
     issuer: "Lovely Professional University",
-    date: "Jul 2024",
+    date: "2021-2022",
     color: "green",
     link: "https://drive.google.com/file/d/1t0f14StPjJSR4PlvXSDYlVC75yIGEM2l/view?usp=drive_link",
   },
