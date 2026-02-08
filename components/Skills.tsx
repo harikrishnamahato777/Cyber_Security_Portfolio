@@ -4,7 +4,7 @@ const skillsData = [
   {
     category: 'Programming',
     icon: Code2,
-    skills: ['C++', 'Python', 'Java'],
+    skills: ['C++', 'Python', 'C','Java','Python'],
     color: 'cyan',
   },
   {

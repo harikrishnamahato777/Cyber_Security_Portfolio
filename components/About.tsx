@@ -7,6 +7,9 @@ export default function About() {
           <span className="inline-block px-4 py-2 glass rounded-full text-cyber-purple text-sm font-semibold uppercase tracking-wider mb-4">
             About Me
           </span>
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-white mb-4">
+            Building Defense Through Practice
+          </h2>
         </div>
 
         {/* Content */}
@@ -17,7 +20,8 @@ export default function About() {
               foundation in computer networks, system configuration, and problem-solving. My approach to learning 
               centers on practical application—understanding not just what security measures exist, but why they work 
               and how they can be bypassed.
-            
+            </p>
+            <p>
               I actively practice hands-on learning through platforms like{' '}
               <span className="text-cyber-cyan font-semibold">TryHackMe</span> and work on projects that strengthen 
               my understanding of real-world security concepts. From network packet analysis to understanding system 
