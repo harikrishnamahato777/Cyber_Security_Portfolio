@@ -19,7 +19,7 @@ const contactInfo = [
   {
     icon: Github,
     label: 'GitHub',
-    value: 'View my code',
+
     href: 'https://github.com/harikrishnamahato777',
   },
   {
