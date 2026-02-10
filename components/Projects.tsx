@@ -30,8 +30,8 @@ const projects = [
       'An AI-powered web application that provides personalized loan recommendations using Google Gemini AI. Features include smart advice generation, voice input, dynamic UI, dark mode, and financial insights based on user credit profile.',
     tech: ['React', 'JavaScript', 'Gemini API', 'Tailwind CSS'],
     // 🔁 Replace these 2 links with your real repo + live demo
-    github: 'https://github.com/harikrishnamahato777/LoanAI',
-    demo: 'https://github.com/harikrishnamahato777/LoanAI',
+    github: 'https://github.com/harikrishnamahato777/AI-Loan-Advisor',
+    demo: 'https://harikrishnamahato777.github.io/AI-Loan-Advisor/',
     date: '2025',
   },
 ]
