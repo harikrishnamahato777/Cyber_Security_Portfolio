@@ -4,7 +4,8 @@ const projects = [
   {
     number: '01',
     title: 'Browser History Manager',
-    description: 'Simulates real browser navigation using Stack and Doubly Linked List. Integrates logical operations with GUI components. Tracks visited URLs clearly.',
+    description:
+      'Simulates real browser navigation using Stack and Doubly Linked List. Integrates logical operations with GUI components. Tracks visited URLs clearly.',
     tech: ['Java', 'Java Swing', 'JDK'],
     github: 'https://github.com/harikrishnamahato777/Browser_History_Manager',
     demo: 'https://github.com/harikrishnamahato777/Browser_History_Manager',
@@ -13,11 +14,25 @@ const projects = [
   {
     number: '02',
     title: 'Yoga_Tracker',
-    description: 'Fitness tracking + workout planner website. Tracks daily workouts, calorie intake, health statistics. Clean UI with focus on usability.',
+    description:
+      'Fitness tracking + workout planner website. Tracks daily workouts, calorie intake, health statistics. Clean UI with focus on usability.',
     tech: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/harikrishnamahato777/Yoga_Tracker_Main',
     demo: 'https://harikrishnamahato777.github.io/Yoga_Tracker_Main/',
     date: 'Sep–Nov 2025',
+  },
+
+  // ✅ NEW PROJECT ADDED
+  {
+    number: '03',
+    title: 'LoanAI – AI Personal Loan Advisor',
+    description:
+      'An AI-powered web application that provides personalized loan recommendations using Google Gemini AI. Features include smart advice generation, voice input, dynamic UI, dark mode, and financial insights based on user credit profile.',
+    tech: ['React', 'JavaScript', 'Gemini API', 'Tailwind CSS'],
+    // 🔁 Replace these 2 links with your real repo + live demo
+    github: 'https://github.com/harikrishnamahato777/LoanAI',
+    demo: 'https://github.com/harikrishnamahato777/LoanAI',
+    date: '2025',
   },
 ]
 
@@ -27,7 +42,6 @@ export default function Projects() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16 reveal">
-          
           <h2 className="font-display text-4xl md:text-5xl font-bold text-white mb-4">
             Featured Projects
           </h2>
@@ -46,7 +60,7 @@ export default function Projects() {
             >
               {/* Gradient Bar on Hover */}
               <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyber-cyan to-cyber-green scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
-              
+
               {/* Project Number */}
               <div className="font-mono text-cyber-purple font-bold mb-4">
                 PROJECT {project.number}
@@ -61,9 +75,7 @@ export default function Projects() {
               </h3>
 
               {/* Description */}
-              <p className="text-gray-400 leading-relaxed mb-6">
-                {project.description}
-              </p>
+              <p className="text-gray-400 leading-relaxed mb-6">{project.description}</p>
 
               {/* Tech Stack */}
               <div className="flex flex-wrap gap-2 mb-6">
@@ -88,6 +100,7 @@ export default function Projects() {
                   <Github size={18} />
                   GitHub
                 </a>
+
                 <a
                   href={project.demo}
                   target="_blank"
@@ -102,10 +115,8 @@ export default function Projects() {
           ))}
         </div>
 
-        {/* Note about demo links */}
-        <div className="mt-8 text-center reveal">
-          
-        </div>
+        {/* Note (optional) */}
+        <div className="mt-8 text-center reveal"></div>
       </div>
     </section>
   )

@@ -93,11 +93,11 @@ export default function Hero() {
 
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-cyber-cyan shadow-2xl bg-cyber-dark">
                 <Image
-                  src="/images/profile.jpg"
+                  src="/images/profile.png"
                   alt="Hari Krishna Mahato"
                   fill
                   priority
-                  className="object-cover scale-[1.15] object-[50%_35%]"
+                  className="object-cover scale-[1.0] object-[50%_35%]"
                 />
               </div>
             </div>

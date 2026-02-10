@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-}
+  output: "export",
 
-module.exports = nextConfig
+  // ✅ IMPORTANT: fixes Image error in static export
+  images: {
+    unoptimized: true,
+  },
+};
 
+module.exports = nextConfig;
