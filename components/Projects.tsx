@@ -13,27 +13,25 @@ const projects = [
   },
   {
     number: '02',
-    title: 'Yoga_Tracker',
+    title: 'Yoga Tracker',
     description:
-      'Fitness tracking + workout planner website. Tracks daily workouts, calorie intake, health statistics. Clean UI with focus on usability.',
+      'Fitness tracking and workout planner website. Tracks daily workouts, calorie intake, and health statistics with a clean, user-friendly interface.',
     tech: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/harikrishnamahato777/Yoga_Tracker_Main',
     demo: 'https://harikrishnamahato777.github.io/Yoga_Tracker_Main/',
     date: 'Sep–Nov 2025',
   },
-
-  // ✅ NEW PROJECT ADDED
   {
     number: '03',
     title: 'LoanAI – AI Personal Loan Advisor',
     description:
-      'An AI-powered web application that provides personalized loan recommendations using Google Gemini AI. Features include smart advice generation, voice input, dynamic UI, dark mode, and financial insights based on user credit profile.',
+      'AI-powered web application that provides personalized loan recommendations using Google Gemini AI. Includes smart advice generation, voice input, dark mode, and financial insights based on user credit profile.',
     tech: ['React', 'JavaScript', 'Gemini API', 'Tailwind CSS'],
-    // 🔁 Replace these 2 links with your real repo + live demo
     github: 'https://github.com/harikrishnamahato777/AI-Loan-Advisor',
     demo: 'https://harikrishnamahato777.github.io/AI-Loan-Advisor/',
-    date: '2025',
+    date: 'Sep 2024',
   },
+  
 ]
 
 export default function Projects() {
@@ -51,14 +49,14 @@ export default function Projects() {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div
               key={project.number}
               className="glass rounded-2xl p-8 hover:border-cyber-cyan hover:shadow-xl hover:shadow-cyber-cyan/10 transition-all duration-300 hover:-translate-y-2 group reveal relative overflow-hidden"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              {/* Gradient Bar on Hover */}
+              {/* Gradient Bar */}
               <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyber-cyan to-cyber-green scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
 
               {/* Project Number */}
@@ -75,7 +73,9 @@ export default function Projects() {
               </h3>
 
               {/* Description */}
-              <p className="text-gray-400 leading-relaxed mb-6">{project.description}</p>
+              <p className="text-gray-400 leading-relaxed mb-6">
+                {project.description}
+              </p>
 
               {/* Tech Stack */}
               <div className="flex flex-wrap gap-2 mb-6">
@@ -114,9 +114,6 @@ export default function Projects() {
             </div>
           ))}
         </div>
-
-        {/* Note (optional) */}
-        <div className="mt-8 text-center reveal"></div>
       </div>
     </section>
   )
